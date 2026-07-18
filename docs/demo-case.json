@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "id": "router-proof-demo",
+  "title": "Restore the studio router",
+  "goal": "Restore the internet connection without guessing or skipping safety checks.",
+  "scenario": "router",
+  "status": "complete",
+  "createdAt": "2026-07-18T18:00:00.000Z",
+  "updatedAt": "2026-07-18T18:03:20.000Z",
+  "currentStepId": null,
+  "steps": [
+    {
+      "id": "inspect",
+      "title": "Inspect the setup",
+      "instruction": "Photograph the router, power adapter, and visible cables before touching anything.",
+      "expectedEvidence": "The router and cable ends are visible, the area is dry, and no cable or connector appears damaged.",
+      "safety": "Stop if you see water, heat damage, exposed conductors, smoke, or swelling.",
+      "critical": true,
+      "status": "verified",
+      "attempts": [
+        {
+          "id": "e56f5826-ad77-4955-938b-2bc312226a80",
+          "at": "2026-07-18T18:00:40.000Z",
+          "verdict": "verified",
+          "confidence": 0.97,
+          "observed": "Router, adapter, and connectors are visible on a dry surface with no visible damage.",
+          "reason": "The safety preconditions and required objects are all visible.",
+          "evidence": {
+            "filename": "01-inspection.svg",
+            "originalName": "01-inspection.svg",
+            "sha256": "6e562e9146e7a997cec1d67ad42c588b80e317d9e42629af39da2bdb35194856",
+            "bytes": 1440,
+            "publicUrl": "./evidence/01-inspection.svg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "power",
+      "title": "Connect power",
+      "instruction": "Insert the matching power adapter into the router's DC-IN socket, then photograph the connection.",
+      "expectedEvidence": "The barrel connector is fully seated in DC-IN and the cable is not under tension.",
+      "safety": "Use only the adapter specified for the router.",
+      "critical": true,
+      "status": "verified",
+      "attempts": [
+        {
+          "id": "c0ada03f-0238-4f0a-acab-6cd7b89c3d9c",
+          "at": "2026-07-18T18:01:20.000Z",
+          "verdict": "verified",
+          "confidence": 0.98,
+          "observed": "The matching barrel connector is fully seated in the socket labelled DC-IN.",
+          "reason": "Connector geometry, label, and cable position match the expected proof.",
+          "evidence": {
+            "filename": "02-power.svg",
+            "originalName": "02-power.svg",
+            "sha256": "2b66398230533918584d86100f646f5f7ecfce1e1d0639b60584fa58538667fd",
+            "bytes": 1497,
+            "publicUrl": "./evidence/02-power.svg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "wan",
+      "title": "Connect the internet cable",
+      "instruction": "Insert the incoming internet cable into the WAN/Internet port and photograph the port labels.",
+      "expectedEvidence": "The cable is latched into the port labelled WAN or Internet, not a numbered LAN port.",
+      "safety": "Do not force the connector. Its latch should face the port notch.",
+      "critical": true,
+      "status": "verified",
+      "attempts": [
+        {
+          "id": "e90a4534-50d6-4712-8898-20c5510c30b3",
+          "at": "2026-07-18T18:02:00.000Z",
+          "verdict": "mismatch",
+          "confidence": 0.99,
+          "observed": "The yellow internet cable is inserted into LAN 1 while the blue WAN port is empty.",
+          "reason": "The physical state contradicts the current instruction. The next step remains locked.",
+          "evidence": {
+            "filename": "03-wrong-port.svg",
+            "originalName": "03-wrong-port.svg",
+            "sha256": "09688fc0c62997d6791984c66c6efba42564fdde0ebe3c9be9fdcc61a4148b7b",
+            "bytes": 1487,
+            "publicUrl": "./evidence/03-wrong-port.svg"
+          }
+        },
+        {
+          "id": "e683652c-3924-4834-b6e5-5684a20eb04f",
+          "at": "2026-07-18T18:02:40.000Z",
+          "verdict": "verified",
+          "confidence": 0.99,
+          "observed": "The internet cable is now latched into the port labelled WAN.",
+          "reason": "The corrected photo clearly shows the WAN label and empty numbered LAN port.",
+          "evidence": {
+            "filename": "04-correct-port.svg",
+            "originalName": "04-correct-port.svg",
+            "sha256": "306d211940aa58d2b5da3b7ae25beb1f4857d55c1748e8d614c8815af4c705ee",
+            "bytes": 1528,
+            "publicUrl": "./evidence/04-correct-port.svg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "lights",
+      "title": "Verify the result",
+      "instruction": "Wait up to two minutes, then photograph the full router status panel.",
+      "expectedEvidence": "Power is stable and the Internet/WAN indicator shows the router's normal connected state.",
+      "safety": "If the router becomes unusually hot or smells burnt, disconnect power.",
+      "critical": false,
+      "status": "verified",
+      "attempts": [
+        {
+          "id": "a94075c4-d771-49e0-bad5-e43a59bfad46",
+          "at": "2026-07-18T18:03:20.000Z",
+          "verdict": "verified",
+          "confidence": 0.96,
+          "observed": "Power, Internet, and Wi-Fi indicators are stable in their connected state.",
+          "reason": "The final status panel provides visible completion evidence.",
+          "evidence": {
+            "filename": "05-lights.svg",
+            "originalName": "05-lights.svg",
+            "sha256": "590e01974defc615f4fcee1316e1d2ec8d79c485aae8e23818482681442f90ed",
+            "bytes": 1282,
+            "publicUrl": "./evidence/05-lights.svg"
+          }
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "b4d026dd-c1f7-4e5a-b7d8-1eface79daf7",
+      "type": "case.created",
+      "at": "2026-07-18T18:00:00.000Z",
+      "stepId": "inspect"
+    },
+    {
+      "id": "0155faa1-aa9e-40da-903c-c6492c376aca",
+      "type": "step.verified",
+      "at": "2026-07-18T18:00:40.000Z",
+      "stepId": "inspect",
+      "attemptId": "e56f5826-ad77-4955-938b-2bc312226a80",
+      "evidenceSha256": "6e562e9146e7a997cec1d67ad42c588b80e317d9e42629af39da2bdb35194856"
+    },
+    {
+      "id": "e6a4104d-825d-492c-adca-0d34dc3d7f19",
+      "type": "step.verified",
+      "at": "2026-07-18T18:01:20.000Z",
+      "stepId": "power",
+      "attemptId": "c0ada03f-0238-4f0a-acab-6cd7b89c3d9c",
+      "evidenceSha256": "2b66398230533918584d86100f646f5f7ecfce1e1d0639b60584fa58538667fd"
+    },
+    {
+      "id": "267fc231-5eba-4660-bb0b-e6ade9dbf53a",
+      "type": "step.mismatch",
+      "at": "2026-07-18T18:02:00.000Z",
+      "stepId": "wan",
+      "attemptId": "e90a4534-50d6-4712-8898-20c5510c30b3",
+      "evidenceSha256": "09688fc0c62997d6791984c66c6efba42564fdde0ebe3c9be9fdcc61a4148b7b"
+    },
+    {
+      "id": "5b383561-805c-481e-b5e1-7d2fa76478d1",
+      "type": "step.verified",
+      "at": "2026-07-18T18:02:40.000Z",
+      "stepId": "wan",
+      "attemptId": "e683652c-3924-4834-b6e5-5684a20eb04f",
+      "evidenceSha256": "306d211940aa58d2b5da3b7ae25beb1f4857d55c1748e8d614c8815af4c705ee"
+    },
+    {
+      "id": "fc3193af-d99e-41f8-bf45-2ac836bbaa11",
+      "type": "step.verified",
+      "at": "2026-07-18T18:03:20.000Z",
+      "stepId": "lights",
+      "attemptId": "a94075c4-d771-49e0-bad5-e43a59bfad46",
+      "evidenceSha256": "590e01974defc615f4fcee1316e1d2ec8d79c485aae8e23818482681442f90ed"
+    }
+  ]
+}

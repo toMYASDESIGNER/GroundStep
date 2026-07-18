@@ -30,6 +30,8 @@ Most assistants optimize the quality of an instruction. GroundStep verifies whet
 
 No API key, cloud account, or external database is required.
 
+**Live demo:** [https://tomyasdesigner.github.io/GroundStep/](https://tomyasdesigner.github.io/GroundStep/)
+
 ## Quick start
 
 Requirements: Node.js 20 or newer and npm.
