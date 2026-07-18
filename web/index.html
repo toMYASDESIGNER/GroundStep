@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080c13">
+  <title>GroundStep — Reality, verified.</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/"><span class="brand-mark">G</span><span>GroundStep</span></a>
+    <div class="top-status"><i></i> Local proof engine</div>
+    <button class="icon-button" id="themeButton" aria-label="Toggle contrast">◐</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="eyebrow"><span>CODEX-NATIVE</span><span>PHYSICAL AI</span><span>ZERO GUESSWORK</span></div>
+      <h1>Do the step.<br><em>Prove it.</em></h1>
+      <p>GroundStep refuses to reveal the next instruction until photo evidence proves the physical world matches the plan.</p>
+      <div class="hero-proof"><span class="pulse"></span><b id="heroStatus">Loading proof trail…</b></div>
+    </section>
+
+    <section class="case-shell">
+      <aside class="case-summary">
+        <div class="section-label">LIVE CASE <b id="caseId">—</b></div>
+        <h2 id="caseTitle">Loading…</h2>
+        <p id="caseGoal"></p>
+        <div class="meter"><div id="meterFill"></div></div>
+        <div class="metrics">
+          <div><strong id="verifiedCount">0</strong><span>verified</span></div>
+          <div><strong id="attemptCount">0</strong><span>proofs</span></div>
+          <div><strong id="blockCount">0</strong><span>blocked</span></div>
+        </div>
+        <button id="replayButton" class="primary">Replay proof trail <span>▶</span></button>
+        <p class="privacy">Evidence stays local. SHA‑256 hashes make later changes visible.</p>
+      </aside>
+
+      <div class="steps-panel">
+        <div class="panel-heading">
+          <div><span>PROOF GATE</span><h3>One instruction at a time.</h3></div>
+          <div class="legend"><span><i class="verified-dot"></i>verified</span><span><i class="mismatch-dot"></i>mismatch</span></div>
+        </div>
+        <div id="steps" class="steps"></div>
+      </div>
+    </section>
+
+    <section class="principle">
+      <span>THE RULE</span>
+      <blockquote>“The model can suggest.<br><em>Reality decides.</em>”</blockquote>
+      <div class="rule-grid">
+        <div><b>01</b><h3>One bounded action</h3><p>No dangerous wall of instructions. Only the current physical step is exposed.</p></div>
+        <div><b>02</b><h3>Visual proof gate</h3><p>Codex compares a fresh image with explicit expected evidence and safety rules.</p></div>
+        <div><b>03</b><h3>Auditable trail</h3><p>Every verdict, explanation, timestamp, and evidence hash is preserved locally.</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>GroundStep / OpenAI Build Week 2026</span><span>Built for Apps for Your Life</span></footer>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>

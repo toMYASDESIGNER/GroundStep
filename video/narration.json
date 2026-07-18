@@ -1,0 +1,26 @@
+[
+  {
+    "frame": "01-hero.png",
+    "text": "What if an AI assistant could not move on until reality proved the last step actually happened? Meet GroundStep, a Codex-native guide for physical tasks."
+  },
+  {
+    "frame": "02-inspection.png",
+    "text": "This real test begins with a disconnected DIGI router. GroundStep exposes only one bounded instruction: inspect the hardware. The photo shows the router, loose cable ends, and a dry work surface, so the step is verified. A close-up then identifies WAN without relying on cable color."
+  },
+  {
+    "frame": "03-mismatch.png",
+    "text": "The user connects the black cable to LAN one. Codex can clearly read the labels. WAN is empty. GroundStep records a ninety-nine percent mismatch and keeps the service check locked. The workflow cannot be talked into advancing."
+  },
+  {
+    "frame": "04-recovery.png",
+    "text": "A second angle shows cables in multiple ports, but cannot prove which one is the incoming line. GroundStep chooses uncertain instead of guessing. A wider photo resolves the ambiguity: the incoming black cable is visibly seated in WAN, so exactly one next step is unlocked."
+  },
+  {
+    "frame": "05-result.png",
+    "text": "The first status photo is red, so completion is rejected. The next photo shows the known connected green state. Only now does GroundStep complete the case. Seven photographs produced four verified steps and three blocked attempts."
+  },
+  {
+    "frame": "06-final.png",
+    "text": "Every image is copied locally, hashed with S H A two fifty-six, and recorded with the verdict, explanation, confidence, and timestamp. Codex provides vision. Deterministic code controls progress. GroundStep: the model can suggest, but reality decides."
+  }
+]

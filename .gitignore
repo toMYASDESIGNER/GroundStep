@@ -1,0 +1,9 @@
+node_modules/
+.groundstep/
+test-results/
+*.log
+video/audio/
+video/segments/
+video/qa/
+video/segments.txt
+video/output/GroundStep-judging-demo.mp4

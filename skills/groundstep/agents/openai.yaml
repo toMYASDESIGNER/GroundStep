@@ -1,0 +1,8 @@
+interface:
+  display_name: "GroundStep"
+  short_description: "Verify real-world work one photo at a time"
+  brand_color: "#B9FF66"
+  default_prompt: "Use $groundstep to guide and verify this real-world task one photographed step at a time."
+
+policy:
+  allow_implicit_invocation: true

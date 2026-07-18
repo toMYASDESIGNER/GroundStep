@@ -1,0 +1,32 @@
+{
+  "name": "groundstep",
+  "version": "0.1.0",
+  "description": "A Codex-native proof gate for real-world tasks.",
+  "author": {
+    "name": "Millo Scurtu Constantin Marius",
+    "url": "https://github.com/toMYASDESIGNER"
+  },
+  "repository": "https://github.com/toMYASDESIGNER/GroundStep",
+  "license": "MIT",
+  "keywords": ["codex", "vision", "verification", "safety", "physical-ai"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "GroundStep",
+    "shortDescription": "Proof-gated guidance for real-world work.",
+    "longDescription": "GroundStep guides one physical step at a time, inspects photo evidence, and unlocks the next instruction only when reality verifies the last one.",
+    "developerName": "Millo Scurtu Constantin Marius",
+    "category": "Productivity",
+    "capabilities": ["Vision", "Interactive", "Write"],
+    "defaultPrompt": [
+      "Guide this task one verified photo at a time.",
+      "Check whether I completed this physical step safely.",
+      "Create a Proof Trail for this repair."
+    ],
+    "brandColor": "#B9FF66",
+    "screenshots": [
+      "./assets/01-groundstep-hero.png",
+      "./assets/02-groundstep-proof-gate.png",
+      "./assets/03-groundstep-real-status.png"
+    ]
+  }
+}

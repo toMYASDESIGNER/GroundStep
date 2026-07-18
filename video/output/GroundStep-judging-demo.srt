@@ -1,0 +1,88 @@
+1
+00:00:00,000 --> 00:00:07,149
+What if an AI assistant could not move on until reality proved the last step actually happened?
+
+2
+00:00:07,149 --> 00:00:10,513
+Meet GroundStep, a Codex-native guide for physical tasks.
+
+3
+00:00:11,713 --> 00:00:15,737
+This real test begins with a disconnected DIGI router.
+
+4
+00:00:15,737 --> 00:00:19,762
+GroundStep exposes only one bounded instruction: inspect the hardware.
+
+5
+00:00:19,762 --> 00:00:27,812
+The photo shows the router, loose cable ends, and a dry work surface, so the step is verified.
+
+6
+00:00:27,812 --> 00:00:32,284
+A close-up then identifies WAN without relying on cable color.
+
+7
+00:00:33,484 --> 00:00:37,418
+The user connects the black cable to LAN one.
+
+8
+00:00:37,418 --> 00:00:40,042
+Codex can clearly read the labels.
+
+9
+00:00:40,042 --> 00:00:41,353
+WAN is empty.
+
+10
+00:00:41,353 --> 00:00:46,600
+GroundStep records a ninety-nine percent mismatch and keeps the service check locked.
+
+11
+00:00:46,600 --> 00:00:49,660
+The workflow cannot be talked into advancing.
+
+12
+00:00:50,860 --> 00:00:58,004
+A second angle shows cables in multiple ports, but cannot prove which one is the incoming line.
+
+13
+00:00:58,004 --> 00:01:00,526
+GroundStep chooses uncertain instead of guessing.
+
+14
+00:01:00,526 --> 00:01:09,771
+A wider photo resolves the ambiguity: the incoming black cable is visibly seated in WAN, so exactly one next step is unlocked.
+
+15
+00:01:10,971 --> 00:01:15,599
+The first status photo is red, so completion is rejected.
+
+16
+00:01:15,599 --> 00:01:19,765
+The next photo shows the known connected green state.
+
+17
+00:01:19,765 --> 00:01:23,004
+Only now does GroundStep complete the case.
+
+18
+00:01:23,004 --> 00:01:27,633
+Seven photographs produced four verified steps and three blocked attempts.
+
+19
+00:01:28,833 --> 00:01:40,392
+Every image is copied locally, hashed with S H A two fifty-six, and recorded with the verdict, explanation, confidence, and timestamp.
+
+20
+00:01:40,392 --> 00:01:42,043
+Codex provides vision.
+
+21
+00:01:42,043 --> 00:01:44,245
+Deterministic code controls progress.
+
+22
+00:01:44,245 --> 00:01:48,649
+GroundStep: the model can suggest, but reality decides.
+
