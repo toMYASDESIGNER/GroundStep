@@ -1,5 +1,11 @@
 # GroundStep — Devpost submission draft
 
+Public judging video: [https://youtu.be/Nxq6k1p3V-Q](https://youtu.be/Nxq6k1p3V-Q)
+
+Live demo: [https://tomyasdesigner.github.io/GroundStep/](https://tomyasdesigner.github.io/GroundStep/)
+
+Source code: [https://github.com/toMYASDESIGNER/GroundStep](https://github.com/toMYASDESIGNER/GroundStep)
+
 ## Tagline
 
 It never gives you the next step until reality proves the last one happened.

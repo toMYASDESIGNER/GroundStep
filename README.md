@@ -32,6 +32,8 @@ No API key, cloud account, or external database is required.
 
 **Live demo:** [https://tomyasdesigner.github.io/GroundStep/](https://tomyasdesigner.github.io/GroundStep/)
 
+**Public judging video:** [https://youtu.be/Nxq6k1p3V-Q](https://youtu.be/Nxq6k1p3V-Q)
+
 ## How Codex and GPT-5.6 were used
 
 GroundStep was designed and implemented in Codex with GPT-5.6 during OpenAI Build Week. Codex handled plugin and skill scaffolding, repository exploration, state-machine implementation, safety-boundary design, automated tests, browser verification, real-photo assessment, dashboard construction, submission assets, and the reproducible voice-over video pipeline. In the product workflow, Codex with GPT-5.6 supplies multimodal interpretation and dialogue; deterministic Node.js code remains authoritative for locks, transitions, evidence integrity, and reports.
@@ -58,7 +60,7 @@ npm run check
 
 ## Judging video
 
-The repository includes the finished English voice-over demo with burned captions at `video/output/GroundStep-judging-demo-subtitled.mp4` and a separate YouTube-ready subtitle file at `video/output/GroundStep-judging-demo.srt`.
+Watch the public judging demo at [https://youtu.be/Nxq6k1p3V-Q](https://youtu.be/Nxq6k1p3V-Q). The repository also includes the finished English voice-over demo with burned captions at `video/output/GroundStep-judging-demo-subtitled.mp4` and a separate YouTube-ready subtitle file at `video/output/GroundStep-judging-demo.srt`.
 
 On Windows, regenerate the complete video from the sanitized dashboard frames with:
 
