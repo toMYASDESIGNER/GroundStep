@@ -29,7 +29,9 @@ No external API key or cloud service is required. The user can attach photos dir
 
 ## How Codex was used
 
-Codex is both the development environment and the product surface. It helped turn the concept into a plugin manifest, safety-scoped skill, CLI, state engine, evidence store, tests, visual fixtures, dashboard, architecture asset, and submission materials. At runtime, Codex interprets the user's attached photo, while deterministic code—not the model—enforces whether the workflow can advance.
+Codex with GPT-5.6 is both the development environment and the product surface. It helped turn the concept into a plugin manifest, safety-scoped skill, CLI, state engine, evidence store, tests, visual fixtures, dashboard, architecture asset, and submission materials. At runtime, Codex with GPT-5.6 interprets the user's attached photo, while deterministic code—not the model—enforces whether the workflow can advance.
+
+Primary Codex session ID: `019f71cd-00d9-7582-946e-6645e4801058`.
 
 ## Challenges
 

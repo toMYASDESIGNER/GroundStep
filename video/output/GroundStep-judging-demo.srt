@@ -71,18 +71,18 @@ Only now does GroundStep complete the case.
 Seven photographs produced four verified steps and three blocked attempts.
 
 19
-00:01:28,833 --> 00:01:40,392
+00:01:28,833 --> 00:01:39,910
 Every image is copied locally, hashed with S H A two fifty-six, and recorded with the verdict, explanation, confidence, and timestamp.
 
 20
-00:01:40,392 --> 00:01:42,043
-Codex provides vision.
+00:01:39,910 --> 00:01:47,823
+Codex with GPT five point six provided the multimodal reasoning, implementation workflow, and test generation.
 
 21
-00:01:42,043 --> 00:01:44,245
+00:01:47,823 --> 00:01:49,933
 Deterministic code controls progress.
 
 22
-00:01:44,245 --> 00:01:48,649
+00:01:49,933 --> 00:01:54,153
 GroundStep: the model can suggest, but reality decides.
 

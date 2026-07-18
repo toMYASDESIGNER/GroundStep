@@ -32,6 +32,12 @@ No API key, cloud account, or external database is required.
 
 **Live demo:** [https://tomyasdesigner.github.io/GroundStep/](https://tomyasdesigner.github.io/GroundStep/)
 
+## How Codex and GPT-5.6 were used
+
+GroundStep was designed and implemented in Codex with GPT-5.6 during OpenAI Build Week. Codex handled plugin and skill scaffolding, repository exploration, state-machine implementation, safety-boundary design, automated tests, browser verification, real-photo assessment, dashboard construction, submission assets, and the reproducible voice-over video pipeline. In the product workflow, Codex with GPT-5.6 supplies multimodal interpretation and dialogue; deterministic Node.js code remains authoritative for locks, transitions, evidence integrity, and reports.
+
+Primary Codex session ID: `019f71cd-00d9-7582-946e-6645e4801058`.
+
 ## Quick start
 
 Requirements: Node.js 20 or newer and npm.
